@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="29dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/sfnsdisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="96dp"
+            android:text="User Registration"
+
+            android:textColor="#171717"
+            android:textSize="32.6sp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:id="@+id/admin"
+            android:background="@drawable/rect_blue"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Admin Registration"
+            android:textColor="@color/white"
+            android:textSize="15.4sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:id="@+id/user"
+            android:background="@drawable/rect_blue"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Student Registration"
+            android:textColor="@color/white"
+            android:textSize="15.4sp" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

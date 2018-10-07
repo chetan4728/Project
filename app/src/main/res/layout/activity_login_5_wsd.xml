@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="A WW."
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="100.3dp"
+            android:background="@drawable/rect_white"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:hint="Username"
+                android:inputType="text"
+                android:padding="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="15.4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="38.4dp"
+            android:background="@drawable/rect_white"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="numberPassword"
+                android:maxLength="6"
+                android:padding="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="15.4dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14.4dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="Forgot Password?"
+            android:textColor="@color/white"
+            android:textSize="15.4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="38.4dp"
+            android:background="@drawable/rect_whitefull"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:text="SIGN IN"
+                android:padding="22dp"
+                android:textColor="#009eee"
+                android:textSize="15.4dp" />
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="20dp">
+
+    <TextView
+        android:fontFamily="@font/roboto_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don’t have an account?"
+        android:textSize="17.3dp"
+        android:textColor="@color/white" />
+    <TextView
+        android:fontFamily="@font/roboto_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="10.5dp"
+        android:layout_gravity="center"
+        android:textSize="17.3dp"
+        android:textColor="@color/white" />
+</LinearLayout>
+
+</RelativeLayout>
